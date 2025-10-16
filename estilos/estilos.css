@@ -12,9 +12,12 @@ body{
 }
 /*Se van configurando las diferentes secciones y clases para mantener el estilo y coherencia se usa colores suaves para fondos y letras en negro y azul*/
 header {
+    position:sticky;
+	top:0;
     background-color: lightgray;
     color: white; 
-    padding: 20px 0; 
+    padding: 20px 0;
+	z-index:10; 
 }
 header nav a {
     color: black;
@@ -217,4 +220,5 @@ th,td {
 	border-bottom: 1px solid #ddd;
 	text-align:left;
 }
+
 
