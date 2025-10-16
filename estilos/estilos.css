@@ -169,6 +169,7 @@ footer p {
 /*Con este estilo, cambio los enlaces de las noticias para que en lugar de verse como botones, el texto salga subrallado, en cursiva, y sin fondo*/
 .leer_mas {
 	font-style:italic;
+	color:black;
 	text-decoration:underline;
 	border:none;
 	background:none;
@@ -216,3 +217,4 @@ th,td {
 	border-bottom: 1px solid #ddd;
 	text-align:left;
 }
+
