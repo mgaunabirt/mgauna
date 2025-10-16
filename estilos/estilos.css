@@ -1,16 +1,20 @@
 /* Este documento recoge todas las reglas de estilo que he aplicado en la web */
 /*A modo general se aplica la letra cambria a todas las páginas y fondo gris muy clara*/
 *{
-	font-family:cambria;
-	background-color:lightergray;
 	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font-family:cambria;
+	font-size: 16px;
+	background-color:lightergray;
 }
 /*Se van configurando las diferentes secciones y clases para mantener el estilo y coherencia se usa colores suaves para fondos y letras en negro y azul*/
 header {
     background-color: lightgray;
     color: white; 
     padding: 20px 0; 
-    width: 100%;
 }
 header nav a {
     color: black;
@@ -19,6 +23,21 @@ header nav a {
 }
 nav {
 	text-align:right;
+}
+nav a {
+	color:#000;
+	text-decoration: none;
+	font-size: 0.9em;
+	padding: 6px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	background-color: lightgray;
+}
+/*con la etiqueta de hover se consigue un efecto, como en este caso que modifico el color del fondo, cuando se pasa el ratón sobre la opción*/
+nav a:hover {
+ color:#FFF;
+ background-color:#666;
 }
 /*En los siguientes campos se cambia un poco color y alineamiento de los encabezados con etiqueta H*/
 h1{
@@ -38,14 +57,13 @@ p {
 	margin:20px;
 }
 a {
-	color:#000;
+	color:#fff;
 	text-decoration: none;
 	font-size: 0.9em;
 	padding: 6px;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: #CCC;
-	background-color: lightgray;
+	background-color: gray;
 }
 /*con la etiqueta de hover se consigue un efecto, como en este caso que modifico el color del fondo, cuando se pasa el ratón sobre la opción*/
 a:hover {
@@ -105,7 +123,6 @@ footer p {
     gap: 10px;
 	justify-content:center;
 }
-
 .tarjeta {
     width: calc(33% - 20px); 
     padding: 15px;
@@ -159,12 +176,32 @@ footer p {
 	font-style:Italic;
 	font-weight:bold;
 }
-
+/*En esta parte configuro el estilo que aplicaré al formulario para que salga enmarcado y con una estructura más compacta*/
 form {
-	margin:30px;
-	background-color: #ffffff;
+	background-color: white;
 	padding: 20px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	max-width:600px;
+	margin:0 auto 40px auto;
+}
+label {
+	display:block;
+	font-weight:bold;
+	margin-top: 15px;
+    margin-bottom: 5px;
+	color:#555;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+form br {
+    display: none;
 }
 /*En este último apartado se configura el estilo que aplicaré a la tabla*/
 table {
