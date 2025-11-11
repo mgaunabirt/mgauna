@@ -1,30 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-  <channel>
-    <!-- Propiedades del canal -->
-    <title>Noticias de la feria Fibasquetur 2025</title>
-    <link>https://mgaunabirt.github.io/mgauna/</link>
-    <description>Feed RSS de novedades de Fibasquetur 2025</description>
-    <language>es</language>
-    <lastBuildDate>Tue, 11 Nov 2025 12:00:00 +0000</lastBuildDate>
-
-    <!-- Primer ítem -->
-    <item>
-      <title>Rincón viajero: las últimas novedades del sector</title>
-      <link>https://mgauna.w3spaces.com/noticiasrelacionadas.html</link>
-      <description>Bilbao, primer destino vasco certificado como Destino Turístico Inteligente.</description>
-      <pubDate>Tue, 11 Nov 2025 11:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://mgaunabirt.github.io/mgauna/noticiasrelacionadas.html</guid>
-    </item>
-    <!--Segundo ítem-->
-    <item>
-      <title>¡Abierto el plazo de inscripción!</title>
-      <link>https://mgaunabirt.github.io/mgauna/formularioContacto.html</link>
-      <description>Abierto el plazo de inscripción para presentar tu stand en la feria</description>
-      <pubDate>Tue, 11 Nov 2025 09:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://mgaunabirt.github.io/mgauna/formularioContacto.html</guid>
-    </item>
-  </channel>
+<channel>
+<!--  Propiedades del canal  -->
+<title>Noticias de la feria Fibasquetur 2025</title>
+<link>https://mgaunabirt.github.io/mgauna/</link>
+<description>Feed RSS de novedades de Fibasquetur 2025</description>
+<language>es</language>
+<lastBuildDate>Tue, 11 Nov 2025 12:00:00 +0000</lastBuildDate>
+<!--  Primer ítem  -->
+<item>
+<title>Rincón viajero: las últimas novedades del sector</title>
+<link>https://mgauna.w3spaces.com/noticiasrelacionadas.html</link>
+<description>Bilbao, primer destino vasco certificado como Destino Turístico Inteligente.</description>
+<pubDate>Tue, 11 Nov 2025 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://mgaunabirt.github.io/mgauna/noticiasrelacionadas.html</guid>
+</item>
+<!--  Segundo ítem  -->
+<item>
+<title>¡Consulta la agenda!</title>
+<link>https://mgaunabirt.github.io/mgauna/agenda.html</link>
+<description>Consulta la agenda completa de actividades confirmadas de Fibasquetur 2025</description>
+<pubDate>Tue, 11 Nov 2025 10:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://mgaunabirt.github.io/mgauna/agenda.html</guid>
+</item>
+<!--  Tercer ítem  -->
+<item>
+<title>¡Abierto el plazo de inscripción!</title>
+<link>https://mgaunabirt.github.io/mgauna/formularioContacto.html</link>
+<description>Abierto el plazo de inscripción para presentar tu stand en la feria</description>
+<pubDate>Tue, 11 Nov 2025 09:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://mgaunabirt.github.io/mgauna/formularioContacto.html</guid>
+</item>
+</channel>
 </rss>
+
 
 
